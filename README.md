@@ -106,6 +106,7 @@ The generated files in the output folder:
 
 The structrue of the output file is as follows:
 - `summary.tsv`: dataset_id`\t`chunk_id`\t`subject_id`\t`predicate_id`\t`object_id
+
 ---
 
 ## Chunk-based Dataset Reranking
