@@ -13,3 +13,4 @@ xmltodict==0.13.0
 flag-embedding
 torch
 transformers
+ranx

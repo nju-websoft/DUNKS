@@ -20,6 +20,7 @@ This code is based on Python 3.9+, and the partial list of the required packages
 - flag-embedding
 - torch
 - transformers
+- ranx
 
 ```
 pip install -r requirements.txt
@@ -104,7 +105,19 @@ The structrue of the output file is as follows:
 
 ## Chunk-based Dataset Reranking
 
-We implement monoBERT and [BGE](https://github.com/FlagOpen/FlagEmbedding) as a dense rearrangement model, as described in the code in `./code/chunk-based-dataset-reranking/`.
+We implement monoBERT and [BGE](https://github.com/FlagOpen/FlagEmbedding) as a dense rearrangement model, see code in `./code/chunk-based-dataset-reranking/` for details. We use [ranx](https://github.com/AmenRa/ranx) for normalizing and fusing metadata-based and data-based relevance scores.
+
+---
+
+## Evaluation
+
+All the results for re-ranking experiments are at `./data/results` in TREC format as follows.
+
+```
+1 Q0 32907 1 1.3371933160530833 mixed
+1 Q0 31665 2 1.2344413177975981 mixed
+1 Q0 1670 3 0.816091260131519 mixed
+```
 
 ---
 
