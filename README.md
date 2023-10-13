@@ -111,7 +111,7 @@ The structrue of the output file is as follows:
 
 ## Chunk-based Dataset Reranking
 
-We implement monoBERT and [BGE](https://github.com/FlagOpen/FlagEmbedding) as a dense rearrangement model, see code in `./code/chunk-based-dataset-reranking/` for details. We use [ranx](https://github.com/AmenRa/ranx) for normalizing and fusing metadata-based and data-based relevance scores.
+We implement monoBERT, BGE, and BGE-reranker as dense reranking models, see code in `./code/chunk-based-dataset-reranking/` for details. We use [ranx](https://github.com/AmenRa/ranx) for normalizing and fusing metadata-based and data-based relevance scores.
 
 ---
 
