@@ -2,6 +2,8 @@
 
 This is the source code and data with the paper "DUNKS: Chunking and Summarizing Large and Heterogeneous Web Data for Dataset Search".
 
+> With the vast influx of open datasets published on the Web, dataset search has been an established and increasingly prominent problem. Existing solutions primarily cater to data in a single format, such as tabular or RDF datasets, despite the diverse formats of Web data. In this paper, to address data heterogeneity, we propose to transform major data formats into unified data chunks, each consisting of triples describing an entity. Furthermore, to make data chunks accommodate to the limited input capacity of dense ranking models based on pre-trained language models, we devise a multi-chunk summarization method that extracts representative triples from representative chunks. We conduct experiments on two test collections for ad hoc dataset retrieval, where the results demonstrate the effectiveness of dense ranking over summarized data chunks.
+
 ---
 
 ## Requirements
