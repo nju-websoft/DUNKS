@@ -43,6 +43,7 @@ python ./code/unified-data-chunking/graph_builder.py [-i|-p] <input_file|input_p
 Notice: only one of -i and -p can be used
 
 The structure of the input folder:
+
 ```
     ./input_folder
     |--dataset1
@@ -59,7 +60,6 @@ The input dataset can contain multiple heterogeneous data files. Currently suppo
 - `.json`, `.xml`
 - `.rdf`, `.nt`, `.owl`
 
-
 The generated files in the output folder:
 ```
     ./output_folder
@@ -67,6 +67,7 @@ The generated files in the output folder:
     |--text.tsv
     |--triple.tsv
 ```
+
 The structrue of the output file is as follows:
 - `term.tsv`: dataset_id`\t`term_id`\t`term_text
 - `text.tsv`: dataset_id`\t`passage_id`\t`passage_text
@@ -89,16 +90,20 @@ python ./code/multi-chunk-summarization/summary_generator.py -i <input_path> -o 
 - [-k|--chunk_size]: the maximum number of triples in a summarized chunk
 
 The structure of the input folder:
+
 ```
     ./input_folder
     |--term.tsv
     |--triple.tsv
-```     
+```
+
 The generated files in the output folder:
+
 ```
     ./output_folder
     |--summary.tsv
 ```
+
 The structrue of the output file is as follows:
 - `summary.tsv`: dataset_id`\t`chunk_id`\t`subject_id`\t`predicate_id`\t`object_id
 ---
