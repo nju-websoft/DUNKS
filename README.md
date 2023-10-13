@@ -117,7 +117,7 @@ We implement monoBERT, BGE, and BGE-reranker as dense reranking models, see code
 
 ## Evaluation
 
-All the results for re-ranking experiments are at `./data/results` in TREC format as follows.
+All the results for reranking experiments on test collection [NTCIR-E](https://ntcir.datasearch.jp/data_search_1/) and [ACORDAR](https://github.com/nju-websoft/ACORDAR) are at `./data/results` in TREC format as follows.
 
 ```
 1 Q0 32907 1 1.3371933160530833 mixed
